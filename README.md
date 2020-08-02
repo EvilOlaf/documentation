@@ -1,7 +1,7 @@
 # Armbian documentation hosted on Github pages
 
 
-On **Pull request** it will be rebuilt and pushed to [https://evilolaf.github.io/docupreview/](https://evilolaf.github.io/docupreview/) for reviewing.
+On **Pull request** it will be rebuilt and pushed to [https://evilolaf.github.io/docupreview/](https://evilolaf.github.io/docupreview/) for reviewing.  
 On **PUSH** documentation will be rebuilt and pushed to [https://github.com/EvilOlaf/docutest](https://github.com/EvilOlaf/docutest) which will be docs.armbian.com
 
 Web version is published here: [https://evilolaf.github.io/docutest/](https://evilolaf.github.io/docutest/)  
