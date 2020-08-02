@@ -30,14 +30,14 @@ jobs:
         ls
         mkdocs build --clean
         
-    - name: Push to documentation repository
+    - name: Push to preview repository
       uses: cpina/github-action-push-to-another-repository@master
       env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
           source-directory: 'site'
           destination-github-username: 'EvilOlaf'
-          destination-repository-name: 'docutest'
+          destination-repository-name: 'docupreview'
           user-email: werner@armbian.de
         
         
